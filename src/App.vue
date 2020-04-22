@@ -1,14 +1,19 @@
 <template>
   <v-app>
+    <Mapa />
     <router-view />
   </v-app>
 </template>
 
 <script>
+import Mapa from "./components/Mapa";
+
 export default {
   name: "App",
 
-  components: {},
+  components: {
+    Mapa
+  },
 
   data: () => ({
     //

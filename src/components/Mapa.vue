@@ -60,10 +60,9 @@
     .vue-map-container, img {
         position: absolute;
         top: 0;
-        left: -100px;
-        /*width: 100%;*/
-        height: 100%;
-        z-index: -3;
+        left: 0;
+        height: 100% !important;
+        width: 100% !important;
     }
 </style>
 
